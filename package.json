@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jest",
     "coverage": "npm run test -- --coverage",
+    "lint": "eslint .; tsc --noEmit",
+    "lint:fix": "eslint . --fix; tsc --noEmit",
+    "format": "prettier -c .",
+    "format:fix": "prettier -w .",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
