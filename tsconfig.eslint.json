@@ -8,5 +8,6 @@
     "__mocks__/**/*.js",
     "*.config.js",
     "*.d.ts",
-    ".eslintrc.js"]
+    ".eslintrc.js"
+  ]
 }
