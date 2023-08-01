@@ -10,7 +10,7 @@ module.exports = {
     'airbnb/hooks',
     'airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
-    // "plugin:@typescript-eslint/stylistic-type-checked",
+    'plugin:@typescript-eslint/stylistic-type-checked',
     'prettier',
   ],
   overrides: [
