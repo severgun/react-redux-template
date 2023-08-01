@@ -1,4 +1,12 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "test/**/*.ts", "*.d.ts", ".eslintrc.js"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "test/**/*.ts",
+    "__mocks__/**/*.js",
+    "*.config.js",
+    "*.d.ts",
+    ".eslintrc.js"]
 }

@@ -35,19 +35,8 @@ const config = {
         use: [stylesHandler, "css-loader", "sass-loader"],
       },
       {
-        test: /\.(eot|ttf|woff|woff2|png|jpg|gif)$/i,
+        test: /\.(eot|ttf|svg|woff|woff2|png|jpg|gif)$/i,
         type: "asset",
-      },
-      {
-        test: /\.svg$/i,
-        type: "asset",
-        resourceQuery: /url/, // *.svg?url
-      },
-      {
-        test: /\.svg$/i,
-        issuer: /\.[jt]sx?$/,
-        resourceQuery: { not: [/url/] }, // exclude react component if *.svg?url
-        use: [{ loader: "@svgr/webpack", options: { typescript: true } }],
       },
     ],
   },
